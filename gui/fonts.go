@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/gobuffalo/packr"
 	"github.com/adam-mcdaniel/aminal/glfont"
+	"github.com/gobuffalo/packr"
 )
 
 func (gui *GUI) getPackedFont(name string) (*glfont.Font, error) {
