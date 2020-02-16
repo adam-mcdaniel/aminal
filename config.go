@@ -8,8 +8,8 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/liamg/aminal/config"
-	"github.com/liamg/aminal/version"
+	"github.com/adam-mcdaniel/aminal/config"
+	"github.com/adam-mcdaniel/aminal/version"
 )
 
 func getActuallyProvidedFlags() map[string]bool {

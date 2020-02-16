@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/go-gl/glfw/v3.2/glfw"
-	"github.com/liamg/aminal/buffer"
-	"github.com/liamg/aminal/terminal"
+	"github.com/adam-mcdaniel/aminal/buffer"
+	"github.com/adam-mcdaniel/aminal/terminal"
 )
 
 func (gui *GUI) glfwScrollCallback(w *glfw.Window, xoff float64, yoff float64) {

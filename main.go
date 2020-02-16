@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/liamg/aminal/gui"
-	"github.com/liamg/aminal/platform"
-	"github.com/liamg/aminal/terminal"
+	"github.com/adam-mcdaniel/aminal/gui"
+	"github.com/adam-mcdaniel/aminal/platform"
+	"github.com/adam-mcdaniel/aminal/terminal"
 	"github.com/riywo/loginshell"
 	"os"
 	"runtime"

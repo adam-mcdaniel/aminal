@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/liamg/aminal/config"
+	"github.com/adam-mcdaniel/aminal/config"
 )
 
 var actionMap = map[config.UserAction]func(gui *GUI){
@@ -48,5 +48,5 @@ func actionToggleSlomo(gui *GUI) {
 }
 
 func actionReportBug(gui *GUI) {
-	gui.launchTarget("https://github.com/liamg/aminal/issues/new/choose")
+	gui.launchTarget("https://github.com/adam-mcdaniel/aminal/issues/new/choose")
 }

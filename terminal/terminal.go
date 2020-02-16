@@ -6,9 +6,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/liamg/aminal/buffer"
-	"github.com/liamg/aminal/config"
-	"github.com/liamg/aminal/platform"
+	"github.com/adam-mcdaniel/aminal/buffer"
+	"github.com/adam-mcdaniel/aminal/config"
+	"github.com/adam-mcdaniel/aminal/platform"
 	"go.uber.org/zap"
 )
 

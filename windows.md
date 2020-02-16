@@ -10,8 +10,8 @@
 
 ```
 cd %YOUR_PROJECT_WORKING_DIR%
-mkdir go\src\github.com\liamg
-cd go\src\github.com\liamg
+mkdir go\src\github.com\adam-mcdaniel
+cd go\src\github.com\adam-mcdaniel
 git clone git@github.com:jumptrading/aminal-mirror.git
 move aminal-mirror aminal
 

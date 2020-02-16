@@ -23,7 +23,7 @@ type Asset struct {
 
 func getLatestRelease() (*Release, error) {
 
-	body, err := downloadFile("https://api.github.com/repos/liamg/aminal/releases/latest")
+	body, err := downloadFile("https://api.github.com/repos/adam-mcdaniel/aminal/releases/latest")
 	if err != nil {
 		return nil, err
 	}

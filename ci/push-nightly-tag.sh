@@ -13,7 +13,7 @@ if [ -z "$MY_TAG" ] ; then
 
   echo "New generated nightly build tag: $NEW_TAG"
 
-  git remote add origin-repo https://${GITHUB_TOKEN}@github.com/liamg/aminal.git > /dev/null 2>&1
+  git remote add origin-repo https://${GITHUB_TOKEN}@github.com/adam-mcdaniel/aminal.git > /dev/null 2>&1
   git push origin-repo $NEW_TAG
 else
   echo "Skipping nighly build tag generation. Last commit tag found:$MY_TAG"

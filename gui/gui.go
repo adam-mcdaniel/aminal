@@ -16,11 +16,11 @@ import (
 	"github.com/go-gl/gl/all-core/gl"
 	"github.com/go-gl/glfw/v3.2/glfw"
 	"github.com/kbinani/screenshot"
-	"github.com/liamg/aminal/buffer"
-	"github.com/liamg/aminal/config"
-	"github.com/liamg/aminal/platform"
-	"github.com/liamg/aminal/terminal"
-	"github.com/liamg/aminal/version"
+	"github.com/adam-mcdaniel/aminal/buffer"
+	"github.com/adam-mcdaniel/aminal/config"
+	"github.com/adam-mcdaniel/aminal/platform"
+	"github.com/adam-mcdaniel/aminal/terminal"
+	"github.com/adam-mcdaniel/aminal/version"
 	"go.uber.org/zap"
 )
 

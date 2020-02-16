@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liamg/aminal/gui"
-	"github.com/liamg/aminal/terminal"
+	"github.com/adam-mcdaniel/aminal/gui"
+	"github.com/adam-mcdaniel/aminal/terminal"
 
 	"github.com/carlogit/phash"
 )
@@ -147,7 +147,7 @@ func TestScreenFeatures(t *testing.T) {
 			validateScreen("test-screen-features-9.png")
 			validateScreen("test-screen-features-10.png")
 
-			// 11th screen test is not passing https://github.com/liamg/aminal/issues/207
+			// 11th screen test is not passing https://github.com/adam-mcdaniel/aminal/issues/207
 			//g.Screenshot("vttest/test-screen-features-11.png")
 			//compareImages("vttest/test-screen-features-11.png", "vttest/test-screen-features-11.png")
 

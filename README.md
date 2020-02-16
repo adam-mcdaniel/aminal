@@ -1,10 +1,10 @@
 # Aminal - A Modern Terminal Emulator
 
-[![Travis Build Status](https://travis-ci.org/liamg/aminal.svg?branch=master)](https://travis-ci.org/liamg/aminal)
-[![GoReportCard](https://goreportcard.com/badge/github.com/liamg/aminal)](https://goreportcard.com/report/github.com/liamg/aminal)
-[![Github Release](https://img.shields.io/github/release/liamg/aminal.svg)](https://github.com/liamg/aminal/releases)
+[![Travis Build Status](https://travis-ci.org/adam-mcdaniel/aminal.svg?branch=master)](https://travis-ci.org/adam-mcdaniel/aminal)
+[![GoReportCard](https://goreportcard.com/badge/github.com/adam-mcdaniel/aminal)](https://goreportcard.com/report/github.com/adam-mcdaniel/aminal)
+[![Github Release](https://img.shields.io/github/release/adam-mcdaniel/aminal.svg)](https://github.com/adam-mcdaniel/aminal/releases)
 [![Slack](https://img.shields.io/badge/slack-%23aminal-%23ffcc00.svg)](http://gophers.slack.com/messages/aminal)
-![License](https://img.shields.io/github/license/liamg/aminal.svg)
+![License](https://img.shields.io/github/license/adam-mcdaniel/aminal.svg)
 
 Aminal is a modern terminal emulator for Mac/Linux/Windows implemented in Golang and utilising OpenGL. 
 
@@ -35,26 +35,26 @@ Ensure you have your latest graphics card drivers installed before use.
 ### MacOS
 
 ```
-brew tap liamg/aminal
+brew tap adam-mcdaniel/aminal
 brew install aminal
 ```
 
 ### Windows
 
-You can run Aminal with a binary from the [releases](https://github.com/liamg/aminal/releases) page.
+You can run Aminal with a binary from the [releases](https://github.com/adam-mcdaniel/aminal/releases) page.
 
 Dev environment setup instructions are available [here](windows.md).
 
 ### Prebuilt Binaries
 
-Prebuilt binaries are available for Linux, OSX and Windows on the [releases](https://github.com/liamg/aminal/releases) page. 
+Prebuilt binaries are available for Linux, OSX and Windows on the [releases](https://github.com/adam-mcdaniel/aminal/releases) page. 
 
 Download the binary and `sudo cp aminal-* /usr/local/bin/aminal && chmod +x /usr/local/bin/aminal`.
 
 ### Install with Go
 
 ```
-go get -u github.com/liamg/aminal
+go get -u github.com/adam-mcdaniel/aminal
 ```
 
 ## Build 
@@ -158,4 +158,4 @@ dpi-scale = 0.0             # Override DPI scale. Defaults to 0.0 (let Aminal de
 
 # Contributors
 
-[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/0)](https://sourcerer.io/fame/liamg/liamg/aminal/links/0)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/1)](https://sourcerer.io/fame/liamg/liamg/aminal/links/1)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/2)](https://sourcerer.io/fame/liamg/liamg/aminal/links/2)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/3)](https://sourcerer.io/fame/liamg/liamg/aminal/links/3)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/4)](https://sourcerer.io/fame/liamg/liamg/aminal/links/4)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/5)](https://sourcerer.io/fame/liamg/liamg/aminal/links/5)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/6)](https://sourcerer.io/fame/liamg/liamg/aminal/links/6)[![](https://sourcerer.io/fame/liamg/liamg/aminal/images/7)](https://sourcerer.io/fame/liamg/liamg/aminal/links/7)
+[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/0)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/0)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/1)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/1)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/2)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/2)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/3)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/3)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/4)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/4)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/5)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/5)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/6)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/6)[![](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/images/7)](https://sourcerer.io/fame/adam-mcdaniel/adam-mcdaniel/aminal/links/7)

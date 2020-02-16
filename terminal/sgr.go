@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/liamg/aminal/buffer"
-	"github.com/liamg/aminal/config"
+	"github.com/adam-mcdaniel/aminal/buffer"
+	"github.com/adam-mcdaniel/aminal/config"
 )
 
 func sgrSequenceHandler(params []string, terminal *Terminal) error {
