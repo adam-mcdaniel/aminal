@@ -24,7 +24,7 @@ var DefaultConfig = Config{
 		LightMagenta: strToColourNoErr("#a000a0"),
 		LightCyan:    strToColourNoErr("#8bb0a0"),
 		White:        strToColourNoErr("#969a97"),
-		Selection:    strToColourNoErr("#333366"),
+		Selection:    strToColourNoErr("#a6aaa7"),
 	},
 	KeyMapping:            KeyMappingConfig(map[string]string{}),
 	SearchURL:             "https://www.google.com/search?q=$QUERY",
