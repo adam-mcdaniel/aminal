@@ -27,12 +27,12 @@ func (gui *GUI) loadFonts() error {
 
 	// from https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack
 
-	defaultFont, err := gui.getPackedFont("Hack Regular Nerd Font Complete.ttf")
+	defaultFont, err := gui.getPackedFont("cozette_bitmap.ttf")
 	if err != nil {
 		return err
 	}
 
-	boldFont, err := gui.getPackedFont("Hack Bold Nerd Font Complete.ttf")
+	boldFont, err := gui.getPackedFont("cozette_bitmap.ttf")
 	if err != nil {
 		return err
 	}
