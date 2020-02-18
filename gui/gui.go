@@ -13,14 +13,14 @@ import (
 
 	"unsafe"
 
-	"github.com/go-gl/gl/all-core/gl"
-	"github.com/go-gl/glfw/v3.2/glfw"
-	"github.com/kbinani/screenshot"
 	"github.com/adam-mcdaniel/aminal/buffer"
 	"github.com/adam-mcdaniel/aminal/config"
 	"github.com/adam-mcdaniel/aminal/platform"
 	"github.com/adam-mcdaniel/aminal/terminal"
 	"github.com/adam-mcdaniel/aminal/version"
+	"github.com/go-gl/gl/all-core/gl"
+	"github.com/go-gl/glfw/v3.2/glfw"
+	"github.com/kbinani/screenshot"
 	"go.uber.org/zap"
 )
 
@@ -149,8 +149,8 @@ func New(config *config.Config, terminal *terminal.Terminal, logger *zap.Sugared
 	return &GUI{
 		config:            config,
 		logger:            logger,
-		width:             800,
-		height:            600,
+		width:             500,
+		height:            400,
 		appliedWidth:      0,
 		appliedHeight:     0,
 		dpiScale:          1,
